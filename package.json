@@ -1,0 +1,27 @@
+{
+  "name": "movie-tweets-retrieval",
+  "version": "1.0.0",
+  "description": "Retrieves the last 100 tweets with the name of the movie using twitter/loklak api. Done as a task for Google CodeIn",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "moviedb": "^0.2.2",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhannanali/movie-tweets-retrieval.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulhannanali/movie-tweets-retrieval/issues"
+  },
+  "homepage": "https://github.com/abdulhannanali/movie-tweets-retrieval#readme"
+}

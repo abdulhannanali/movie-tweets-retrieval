@@ -1,8 +1,6 @@
-const request = require('request')
 const MovieDB = require('moviedb')
 const Twitter = require('twitter')
-const colors = require("colors")
-const fs = require("fs")
+const colors = require('colors')
 
 require("./config")()
 
@@ -24,7 +22,7 @@ mdb.miscNowPlayingMovies(function (error, response) {
       return ""
     }
     client.get("search/tweets", {q: value.title, count: 10}, function (error, response, body) {
-      console.log("Tweets for " + value.title)
+      console.log("Tweets for " + value.title .green)
       response.statuses.forEach((value, index, array)  => {
         console.log(tweetFormatter(value))
       })
@@ -37,5 +35,5 @@ function movieFormatter (movie) {
 }
 
 function tweetFormatter(tweet) {
-  return `${tweet.text} by ${tweet.user.screen_name}`
+  return `\n${tweet.text} by ${tweet.user.screen_name}\n`
 }
