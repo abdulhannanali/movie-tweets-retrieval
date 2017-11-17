@@ -1,4 +1,6 @@
 # movie-tweets-retrieval
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/abdulhannanali/movie-tweets-retrieval.svg)](https://greenkeeper.io/)
 Retrieves the last 100 tweets with the name of the movie using twitter/loklak api. Done as a task for Google CodeIn
 
 
